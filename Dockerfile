@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "DEBUG=express-locallibrary-tutorial:*", "npm", "run", "devstart" ]
+CMD [ "npm", "run", "devstart" ]
