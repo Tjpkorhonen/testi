@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 8080
-CMD [ "npm", "start" ]
+CMD [ "node", "populatedb", "mongodb://webuser:webuser1@ds145923.mlab.com:45923/local_library"]
